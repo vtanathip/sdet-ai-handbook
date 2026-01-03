@@ -1,0 +1,18 @@
+[project]
+name = "agent-hello-world"
+version = "0.1.0"
+description = "Hello World using Microsoft Agent Framework (Python)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "vtanathip" }]
+
+# Core dependency for Microsoft Agent Framework
+# The framework provides OpenAI/Azure clients; OpenAI key is required for the example.
+dependencies = [
+    # Install Agent Framework core directly from GitHub (pre-release)
+    "agent-framework-core @ git+https://github.com/microsoft/agent-framework.git#subdirectory=python/packages/core",
+    "python-dotenv>=1.0",
+]
+
+[tool.uv]
+# Optional: configure uv settings here if needed
