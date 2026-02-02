@@ -1,0 +1,23 @@
+{
+    "name": "chrome-devtools-mcp-demo",
+    "version": "1.0.0",
+    "description": "Minimal demo of Chrome DevTools MCP for test failure analysis",
+    "type": "module",
+    "packageManager": "pnpm@9.15.0",
+    "scripts": {
+        "demo": "tsx src/demo.ts",
+        "demo:direct": "tsx src/demo-direct.ts"
+    },
+    "dependencies": {
+        "@iflow-mcp/chrome-devtools-mcp": "^0.12.2",
+        "@langchain/openai": "^0.4.0",
+        "chrome-devtools-mcp": "^0.0.1",
+        "dotenv": "^16.4.0",
+        "mcp-use": "^1.16.2"
+    },
+    "devDependencies": {
+        "@types/node": "^22.0.0",
+        "tsx": "^4.19.0",
+        "typescript": "^5.7.0"
+    }
+}
