@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "@iflow-mcp/chrome-devtools-mcp": "^0.12.2",
-        "@langchain/openai": "^0.4.0",
+        "@langchain/openai": "^1.2.4",
         "chrome-devtools-mcp": "^0.0.1",
         "dotenv": "^16.4.0",
         "mcp-use": "^1.16.2"

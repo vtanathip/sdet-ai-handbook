@@ -35,7 +35,7 @@ const client = new MCPClient({
   mcpServers: {
     "chrome-devtools": {
       command: "npx",
-      args: ["chrome-devtools-mcp@latest", "--headless=true", "--isolated=true"]
+      args: ["chrome-devtools-mcp@latest", "--headless=false", "--isolated=true"]
     }
   }
 });
