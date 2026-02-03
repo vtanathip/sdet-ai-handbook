@@ -26,3 +26,4 @@ Thumbs.db
 
 # Chrome DevTools MCP temp files
 chrome-profile*/
+*.tsbuildinfo
